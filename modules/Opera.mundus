@@ -1,0 +1,21 @@
+{
+    "Name": "Opera",
+    "Category": "Web Browser",
+    "Description": "opera is a Chromium like web browser developed but with very faster at runtime.",
+    "Submodules": {
+        "0": {
+            "Path": "~/.config/opera",
+            "Name": "Configuration & Profiles",
+            "Description": "Configuration Files",
+            "Warning": "This folder contains personal data. Once removed it cannot be recovered unless you have the automatic backup feature enabled."
+        },
+        "1": {
+            "Path": "~/.cache/opera-developer",
+            "Name": "Downloaded Cache",
+            "Description": "Temporary storage of downloaded files"
+        }
+    },
+    "Executable": "opera",
+    "Website": "https://www.opera.com",
+    "Version": 2
+}
