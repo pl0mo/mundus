@@ -124,7 +124,6 @@
       }
       { vbTotalBackups ValueBox
         MoveScaled(47,0,14,4)
-        Value = "0"
         ReadOnly = True
       }
     }
@@ -138,7 +137,6 @@
       }
       { vbTotalReports ValueBox
         MoveScaled(47,0,14,4)
-        Value = "0"
         ReadOnly = True
       }
     }

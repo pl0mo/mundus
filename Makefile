@@ -14,7 +14,7 @@
 #    You should have received a copy of the GNU General Public License
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-DESTDIR ?= 
+DESTDIR ?=
 
 PREFIX ?= /usr
 bindir = $(PREFIX)/bin#Default: /usr/bin
@@ -22,7 +22,7 @@ libdir = /opt
 datadir = $(PREFIX)/share#Default: /usr/share
 
 build: clean
-	gbc3 -a -t -p -g .
+	gbc3 -a -t -g .
 	gba3 .
 #mv mundus*.gambas mundus-bin
 
