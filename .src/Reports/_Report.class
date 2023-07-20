@@ -16,7 +16,7 @@
 ' You should have received a copy of the GNU General Public License
 ' along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-Private $sPath As String
+'' Private sPath As String
 Private $bNew As Boolean
 
 Private $cAtomSession As New Collection
@@ -91,7 +91,7 @@ Public Sub Save()
   If $bNew Then
     sPath = Main.PATH_REPORTS &/ Format$(Now, "yyyy-mm-dd_hh-nn-ss.log") '$sPath
   Else
-    sPath = $sPath
+    sPath = Str(sPath)
   Endif
 
   If Not Access(File.Dir(sPath), gb.Write) Then

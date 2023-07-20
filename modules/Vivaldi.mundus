@@ -1,0 +1,22 @@
+{
+    "Name": "Vivaldi",
+    "Category": "Web Browser",
+    "Description": "Vivaldi is a Chromium like browser with so many extra features like, integrade personal notes, crypto currencies wallet, many customizable side bars, etc...",
+    "Submodules": {
+        "0": {
+            "Path": "~/.config/vivaldi",
+            "Name": "Configuration & Profiles",
+            "Description": "Configuration Files",
+            "Warning": "This folder contains personal data. Once removed it cannot be recovered unless you have the automatic backup feature enabled."
+        },
+        "1": {
+            "Path": "~/.cache/vivaldi",
+            "Name": "Downloaded Cache",
+            "Description": "Temporary storage of downloaded files"
+        }
+    },
+    "Executable": "vivaldi|vivaldi-stable",
+    "Website": "https://vivaldi.com",
+    "Version": 2
+}
+

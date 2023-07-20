@@ -100,24 +100,24 @@
       Expand = True
       Spacing = True
       { panFilter Panel
-        MoveScaled(1,4,26,3.5714)
+        MoveScaled(1,4,26,3.625)
         Background = Color.TextBackground
         Arrangement = Arrange.Horizontal
         AutoResize = True
         Border = Border.Plain
         { PictureBox1 PictureBox
-          MoveScaled(0,0,3.5714,4)
-          Picture = Picture["icon:/16/find"]
+          MoveScaled(0,0,3.625,4)
+          Picture = Picture.Load("icon:/16/find")
           Alignment = Align.Center
         }
         { tbFilter TextBox
-          MoveScaled(9,0,8,3.5714)
+          MoveScaled(9,0,8,3.625)
           Expand = True
           MaxLength = 20
           Border = False
         }
         { tbClearFilter ToolButton
-          MoveScaled(22,0,3.5714,4)
+          MoveScaled(22,0,3.625,4)
           ToolTip = ("Clear")
           Picture = Picture["icon:/16/close"]
         }
@@ -153,7 +153,7 @@
           { lblWebsite Label
             MoveScaled(1,11,15,4)
             Foreground = Color.SelectedBackground
-            Mouse = Mouse.Pointing
+            Mouse = Cursor.Pointing
             AutoResize = True
           }
         }
@@ -163,7 +163,7 @@
         }
         { pbAppIcon PictureBox
           MoveScaled(50,2,16,16)
-          Picture = Picture["icon:/128/exec"]
+          Picture = Picture.Load("icon:/128/exec")
           AutoResize = True
           Alignment = Align.Center
         }
@@ -179,7 +179,7 @@
         MoveScaled(1,38,66,5)
         { pbInstalled PictureBox
           MoveScaled(0,0,5,5)
-          Picture = Picture["icon:/32/apply"]
+          Picture = Picture.Load("icon:/32/apply")
         }
         { Label2 Label
           MoveScaled(6,0,31,4)
@@ -205,7 +205,7 @@
         MoveScaled(1,45,66,5)
         { pbHasConfig PictureBox
           MoveScaled(0,0,5,5)
-          Picture = Picture["icon:/32/cancel"]
+          Picture = Picture.Load("icon:/32/cancel")
         }
         { Label3 Label
           MoveScaled(6,0,24,4)

@@ -15,9 +15,9 @@
     AutoResize = True
     Spacing = True
     { PictureBox1 PictureBox
-      MoveScaled(0,0,18.2857,18.2857)
+      MoveScaled(0,0,18.25,18.25)
       Expand = True
-      Picture = Picture["icon.png"]
+      Picture = Picture.Load("icon.png")
     }
     { lblTitle Label
       MoveScaled(20,1,53,13)
